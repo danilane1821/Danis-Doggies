@@ -121,16 +121,6 @@ span.psw {
     padding-top: 16px;
 }
 
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width : 331px ){
-    span.psw {
-        display: block;
-        float: none;
-    }
-    .cancelbtn {
-        width: 100%;
-    }
-} 
 
 
 
@@ -180,3 +170,23 @@ input[type=submit]:hover {
   clear: both;
   display: table;
 } 
+
+	
+/* Phones Only*/
+
+@media screen and (max-width: 767px) {
+	header{
+		display: none;
+	}	
+}
+/* Tablets and high rez phones */
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
+/* Tablets and high rez phones, landscape */
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+
+}
+/* Monitors */
+@media screen and (min-width: 992px) {
+}
