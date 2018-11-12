@@ -174,17 +174,39 @@ input[type=submit]:hover {
 	
 /* Phones Only*/
 
-@media screen and (max-width: 767px) {
-	header{
-		display: none;
-	}	
+@media screen and (max-width: 800px) {
+	header{display: none;}
+	nav{float: left;
+	}
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+		
+	}
 }
 /* Tablets and high rez phones */
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 801px) and (max-width: 991px){
 
 }
 /* Tablets and high rez phones, landscape */
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+@media screen and (min-device-width : 801px) and (max-device-width : 1024px) and (orientation : landscape){
 
 }
 /* Monitors */
