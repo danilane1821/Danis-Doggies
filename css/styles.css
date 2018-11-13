@@ -199,6 +199,7 @@ input[type=submit]:hover {
 	
     header{display: none;}
 	nav{float: left;
+		width: auto;
 	}
 	ul {
     list-style-type: none;
@@ -220,17 +221,22 @@ li a:hover {
     background-color: #555;
     color: white;
 }
-	#maincenter{width:800px;	
+	#maincenter{width:auto;	
 	}
 	footer{display: none;}
 	body{background-color: white; }
 		
 	
-#wrapper{background-color: white;}
+#wrapper{background-color: white;
+	width: auto;}
+	
 	#Nav{float: left;
-	
-	
-}
+		
+	}
+	iframe{width: auto;}
+	h2{width: auto;}
+	h3{width: auto;}
+	}
 /* Tablets and high rez phones */
 @media screen and (min-width: 801px) and (max-width: 991px){
 		
