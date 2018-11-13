@@ -68,6 +68,7 @@ footer{
  /* Bordered form */
 form {
     border: 3px solid #f1f1f1;
+	width: 50%;
 }
 
 
@@ -160,6 +161,7 @@ input[type=submit]:hover {
     background-color: #f2f2f2;
     padding: 20px;
 	margin: 0 auto;
+	width: 50%;
 	
 
 }
