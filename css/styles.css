@@ -12,6 +12,11 @@ header {
 	font-size: 26px;
 	text-align: center;
 	padding: 10px;
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	background-size: 120px;
+
+	
 	
 	
 }
@@ -69,6 +74,7 @@ footer{
 form {
     border: 3px solid #f1f1f1;
 	width: 50%;
+	margin: auto;
 }
 
 
