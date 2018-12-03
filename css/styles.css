@@ -10,15 +10,11 @@ header {
 	width: 990px;
 	font-family: American Typewriter;
 	font-size: 26px;
-	text-align: center;
+	text-align: right;
 	padding: 10px;
 	background-image: url("../images/logo.png");
 	background-repeat: no-repeat;
 	background-size: 120px;
-
-	
-	
-	
 }
 
 
@@ -54,10 +50,10 @@ body{
 	height:900px;
 	padding: 10px;
 }
+h1{margin: auto;}
 
 h2{
-text-align:center;
-	margin: auto;
+text-align: center;
 		
 }
 h3{
